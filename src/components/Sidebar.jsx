@@ -1,4 +1,4 @@
-import { AccountBox, DarkMode, Group, Home, LightMode, ModeNight, Pages, Person, Settings, Storefront } from '@mui/icons-material';
+import { AccountBox, DarkMode, Group, Home, LightMode, Pages, Person, Settings, Storefront } from '@mui/icons-material';
 import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material'
 
 const Sidebar = ({mode, setMode}) => {

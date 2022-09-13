@@ -55,40 +55,40 @@ const Rightbar = () => {
         <Typography variant="h6" fontWeight="200" mt={2} mb={2}>
           Latest Photos
         </Typography>
-        <ImageList cols={3} rowHeight={100} gap={5}>
+        <ImageList cols={3} rowHeight={100} gap={4}>
           <ImageListItem>
             <img
-              src="https://images.unsplash.com/photo-1518756131217-31eb79b20e8f?w=164&h=164&fit=crop&auto=format&dpr=2"
+              src="https://images.unsplash.com/photo-1518756131217-31eb79b20e8f?w=100&h=70&fit=crop&auto=format&dpr=2"
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
             <img
-              src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=164&h=164&fit=crop&auto=format&dpr=2"
+              src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=100&h=70&fit=crop&auto=format&dpr=2"
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
             <img
-              src="https://images.unsplash.com/photo-1522770179533-24471fcdba45?w=164&h=164&fit=crop&auto=format&dpr=2"
+              src="https://images.unsplash.com/photo-1522770179533-24471fcdba45?w=100&h=70&fit=crop&auto=format&dpr=2"
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
             <img
-              src="https://images.unsplash.com/photo-1533827432537-70133748f5c8?w=164&h=164&fit=crop&auto=format&dpr=2"
+              src="https://images.unsplash.com/photo-1533827432537-70133748f5c8?w=100&h=70&fit=crop&auto=format&dpr=2"
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
             <img
-              src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=164&h=164&fit=crop&auto=format&dpr=2"
+              src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=100&h=70&fit=crop&auto=format&dpr=2"
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
             <img
-              src="https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?w=161&fit=crop&auto=format&dpr=2"
+              src="https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?w=100&h=70=fit=crop&auto=format&dpr=2"
               alt=""
             />
           </ImageListItem>
