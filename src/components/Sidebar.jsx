@@ -1,7 +1,7 @@
 import { AccountBox, DarkMode, Group, Home, LightMode, Pages, Person, Settings, Storefront } from '@mui/icons-material';
 import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from '@mui/material'
 
-const Sidebar = ({mode, setMode}) => {
+const Sidebar = ({mode, setMode, changeTheme}) => {
   return (
     <Box flex={1} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
       <Box position="fixed">
@@ -65,11 +65,9 @@ const Sidebar = ({mode, setMode}) => {
           <ListItem disablePadding>
             <ListItemButton component="a" href="#profile">
               <ListItemIcon>
-
-                {mode === "light"? <LightMode />: <DarkMode />}
-                
+                {mode === false? <LightMode />: <DarkMode />}  
               </ListItemIcon>
-              <Switch onChange={e => setMode(mode === "light"? "dark": "light")} />
+              <Switch checked={mode === true? 'checked': ''} onChange={changeTheme} />
             </ListItemButton>
           </ListItem>
         </List>
