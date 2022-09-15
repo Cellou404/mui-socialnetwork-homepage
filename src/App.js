@@ -15,16 +15,16 @@ function App() {
     }
   })
 
-  useEffect((event) => {
+  useEffect(() => {
     const currentTheme = localStorage.getItem('light') || 'light'
     if (currentTheme !== 'light') {
-      setMode(prevMode => !prevMode)
+      setMode(!mode)
     }
   }, [])
 
-  const changeTheme = (event) => {
+  const changeTheme = () => {
     localStorage.setItem('light', mode ? 'light': 'dark')
-    setMode(prevMode => !prevMode)
+    setMode(!mode)
   }
   return (
     <ThemeProvider theme={darkMode}>

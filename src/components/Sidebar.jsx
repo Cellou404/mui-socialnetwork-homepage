@@ -67,7 +67,7 @@ const Sidebar = ({mode, setMode, changeTheme}) => {
               <ListItemIcon>
                 {mode === false? <LightMode />: <DarkMode />}  
               </ListItemIcon>
-              <Switch checked={mode === true? 'checked': ''} onChange={changeTheme} />
+              {mode === false ? <Switch onChange={changeTheme} />: <Switch checked='checked' onChange={changeTheme} />}
             </ListItemButton>
           </ListItem>
         </List>
